@@ -22,7 +22,9 @@ ul {
 }
 
 .square {
+  cursor: pointer;
   background: #1f2635;
+  color: #fff;
   border: 1px solid #feb221;
   float: left;
   font-size: 35px;
