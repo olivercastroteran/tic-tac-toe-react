@@ -23,6 +23,7 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  display: flex;
 }
 
 .status {
@@ -52,6 +53,10 @@ h1 {
 
 .square:hover {
   background-color: #4a5c81;
+}
+
+.game-info {
+  margin-left: 2rem;
 }
 
 /*
