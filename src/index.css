@@ -56,7 +56,30 @@ h1 {
 }
 
 .game-info {
-  margin-left: 2rem;
+  margin-top: -70px;
+  width: 150px;
+  height: 150px;
+  margin-left: 3rem;
+}
+
+.game-info div {
+  margin-bottom: 1rem;
+}
+
+.game-info ol li button {
+  cursor: pointer;
+  width: 125px;
+  margin-bottom: 5px;
+  background: transparent;
+  color: #feb221;
+  border: 1px solid #feb221;
+  padding: 5px 10px;
+  transition: all 0.3s;
+}
+
+.game-info ol li button:hover {
+  background: #e4ac44;
+  color: #4a5c81;
 }
 
 /*
