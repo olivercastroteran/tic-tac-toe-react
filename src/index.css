@@ -77,6 +77,10 @@ h1 {
   transition: all 0.3s;
 }
 
+.game-info ol li button:focus {
+  outline: none;
+}
+
 .game-info ol li button:hover {
   background: #e4ac44;
   color: #4a5c81;
